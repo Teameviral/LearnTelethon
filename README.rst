@@ -6,7 +6,7 @@ Learn Telethon easily through this repo.
 
  ⭐️ Thanks **everyone** who has starred the project, it means a lot!
 
-|logo| **Telethon** is an asyncio_ **Python 3**
+**Telethon** is an asyncio_ **Python 3**
 MTProto_ library to interact with Telegram_'s API
 as a user or through a bot account (bot API alternative).
 
