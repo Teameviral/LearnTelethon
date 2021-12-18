@@ -13,8 +13,8 @@ There are 33 keywords in Python 3.7. This number can vary slightly over the cour
 
 All the keywords except `True`, `False` and `None` are in lowercase and they must be written as they are. The list of all the keywords is given below.
 
-| First Header  | Second Header |
-| ------------- | ------------- |
+| First Header |  | Second Header      |
+| -------------------------------------|
 |False|	|await|	|else|	|import|	|pass|
 |None|	|break|	|except|	|in|	|raise|
 True	class	finally	is	return
