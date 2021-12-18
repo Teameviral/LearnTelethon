@@ -1,4 +1,4 @@
-# LearnTelethon
+**LearnTelethon**
 Learn Telethon easily through this repo.
 
  ⭐️ Thanks **everyone** who has starred the project, it means a lot!
@@ -43,4 +43,15 @@ Creating a client
 
     client = TelegramClient('session_name', api_id, api_hash)
     client.start()
+    
+    .. _asyncio: https://docs.python.org/3/library/asyncio.html
+.. _MTProto: https://core.telegram.org/mtproto
+.. _Telegram: https://telegram.org
+.. _Compatibility and Convenience: https://docs.telethon.dev/en/latest/misc/compatibility-and-convenience.html
+.. _Read The Docs: https://docs.telethon.dev
+
+.. |logo| image:: logo.svg
+    :width: 24pt
+    :height: 24pt
+
 
