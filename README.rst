@@ -47,7 +47,7 @@ Creating a client
     client = TelegramClient('session_name', api_id, api_hash)
     client.start()
     
-    .. _asyncio: https://docs.python.org/3/library/asyncio.html
+.. _asyncio: https://docs.python.org/3/library/asyncio.html
 .. _MTProto: https://core.telegram.org/mtproto
 .. _Telegram: https://telegram.org
 .. _Compatibility and Convenience: https://docs.telethon.dev/en/latest/misc/compatibility-and-convenience.html
