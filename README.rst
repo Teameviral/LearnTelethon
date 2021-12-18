@@ -2,7 +2,7 @@ LearnTelethon
 ========
 .. epigraph::
 
-easily through this repo.
+Learn Telethon easily through this repo.
 
  ⭐️ Thanks **everyone** who has starred the project, it means a lot!
 
