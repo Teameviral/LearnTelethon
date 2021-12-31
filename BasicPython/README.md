@@ -13,9 +13,9 @@ There are 33 keywords in Python 3.7. This number can vary slightly over the cour
 
 All the keywords except `True`, `False` and `None` are in lowercase and they must be written as they are. The list of all the keywords is given below.
 
-| First | Second | Third |
-| :---         |     :---:      |          ---: |
-| False | git status     | git status    |
+| First | Second | Third | Third | Third |
+| :---         |     :---:      |     :---:      |     :---:      |          ---: |
+| False | await     | else    | else    | else    |
 | git diff     | git diff       | git diff      |
 | False | git status     | git status    |
 | git diff     | git diff       | git diff      |
