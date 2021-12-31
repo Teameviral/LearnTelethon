@@ -158,4 +158,22 @@ perfect example of
 multi-line comments"""
 ```
 
+## Python Variables
+
+A variable is a named location used to store data in the memory. It is helpful to think of variables as a container that holds data that can be changed later in the program. For example:
+```number = 10```
+Here, we have created a variable named number. We have assigned the value 10 to the variable.
+
+You can think of variables as a bag to store books in it and that book can be replaced at any time.
+
+```
+number = 10
+number = 1.1
+```
+Initially, the value of number was 10. Later, it was changed to 1.1.
+
+## Literals
+Literal is a raw data given in a variable or constant. In Python, there are various types of literals they are as follows:
+### Numeric Literals
+Numeric Literals are immutable (unchangeable). Numeric literals can belong to 3 different numerical types: `Integer`, `Float`, and `Complex`.
 
