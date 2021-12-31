@@ -205,4 +205,21 @@ Declaring a list is pretty straight forward. Items separated by commas are enclo
 ```a = [1, 2.2, 'python']```
 We can use the slicing operator `[ ]` to extract an item or a range of items from a list. The index starts from 0 in Python.
 
+## Python Tuple
+Tuple is an ordered sequence of items same as a list. The only difference is that tuples are immutable. Tuples once created cannot be modified.
+
+Tuples are used to write-protect data and are usually faster than lists as they cannot change dynamically.
+
+It is defined within parentheses () where items are separated by commas.
+
+```t = (5,'program', 1+3j)```
+
+## Python Dictionary
+Dictionary is an unordered collection of key-value pairs.
+
+It is generally used when we have a huge amount of data. Dictionaries are optimized for retrieving data. We must know the key to retrieve the value.
+
+In Python, dictionaries are defined within braces {} with each item being a pair in the form key:value. Key and value can be of any type.
+
+
 
