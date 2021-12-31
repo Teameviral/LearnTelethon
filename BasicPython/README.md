@@ -177,3 +177,32 @@ Literal is a raw data given in a variable or constant. In Python, there are vari
 ### Numeric Literals
 Numeric Literals are immutable (unchangeable). Numeric literals can belong to 3 different numerical types: `Integer`, `Float`, and `Complex`.
 
+## Python Operators
+Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand.
+
+For example:
+```
+>>> 2+3
+5
+```
+Here, + is the operator that performs addition. 2 and 3 are the operands and 5 is the output of the operation.
+
+## Python Data Types
+Every value in Python has a datatype. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+There are various data types in Python. Some of the important types are listed below.
+
+## Python Numbers
+Integers, floating point numbers and complex numbers fall under Python numbers category. They are defined as `int`, `float` and `complex` classes in Python.
+
+We can use the type() function to know which class a variable or a value belongs to. Similarly, the isinstance() function is used to check if an object belongs to a particular class.
+
+## Python List
+List is an ordered sequence of items. It is one of the most used datatype in Python and is very flexible. All the items in a list do not need to be of the same type.
+
+Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ].
+
+```a = [1, 2.2, 'python']```
+We can use the slicing operator `[ ]` to extract an item or a range of items from a list. The index starts from 0 in Python.
+
+
