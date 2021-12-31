@@ -98,3 +98,29 @@ if True: print('Hello'); a = 5
 ```
 both are valid and do the same thing, but the former style is clearer.
 incorrect indentation will result in `IndentationError`.
+
+## Docstrings in Python
+A docstring is short for documentation string.
+
+Python docstrings (documentation strings) are the string literals that appear right after the definition of a function, method, class, or module.
+
+Triple quotes are used while writing docstrings. For example:
+```
+def double(num):
+    """Function to double the value"""
+    return 2*num
+```
+Docstrings appear right after the definition of a function, class, or a module. This separates docstrings from multiline comments using triple quotes.
+
+The docstrings are associated with the object as their __doc__ attribute.
+
+So, we can access the docstrings of the above function with the following lines of code:
+```
+def double(num):
+    """Function to double the value"""
+    return 2*num
+print(double.__doc__)
+```
+### Output
+
+```Function to double the value```
