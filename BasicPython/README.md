@@ -27,3 +27,26 @@ All the keywords except `True`, `False` and `None` are in lowercase and they mus
 An identifier is a name given to entities like class, functions, variables, etc. It helps to differentiate one entity from another.
 ### Rules for writing identifiers
 - Identifiers can be a combination of letters in lowercase (a to z) or uppercase (A to Z) or digits (0 to 9) or an underscore `_`. Names like `myClass`, `var_1` and `print_this_to_screen`, all are valid example.
+- An identifier cannot start with a digit. `1variable` is invalid, but `variable1` is a valid name.
+- Keywords cannot be used as identifiers. like `global = 1`.
+- We cannot use special symbols like `!, @, #, $, %` etc. in our identifier.
+
+## Things to Remember
+Python is a case-sensitive language. This means, Variable and variable are not the same.
+
+Always give the identifiers a name that makes sense. While c = 10 is a valid name, writing count = 10 would make more sense, and it would be easier to figure out what it represents when you look at your code after a long gap.
+
+Multiple words can be separated using an underscore, like `this_is_a_long_variable`.
+
+## Python Statement
+Instructions that a Python interpreter can execute are called statements. For example, a = 1 is an assignment statement. if statement, for statement, while statement, etc. are other kinds of statements which will be discussed later.
+
+### Multi-line statement
+In Python, the end of a statement is marked by a newline character. But we can make a statement extend over multiple lines with the line continuation character (\).
+Example
+
+```
+a = 1 + 2 + 3 + \
+    4 + 5 + 6 + \
+    7 + 8 + 9
+```
