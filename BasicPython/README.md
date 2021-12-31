@@ -134,10 +134,12 @@ In Python, we use the hash (`#`) symbol to start writing a comment.
 
 It extends up to the newline character. Comments are for programmers to better understand a program. Python Interpreter ignores comments.
 
-```#This is a comment
+```
+#This is a comment
 #print out Hello
 print('Hello')
-Multi-line comments```
+Multi-line comments
+```
 
 We can have comments that extend up to multiple lines. One way is to use the hash(#) symbol at the beginning of each line. For example:
 
@@ -146,8 +148,8 @@ We can have comments that extend up to multiple lines. One way is to use the has
 #and it extends
 #to multiple lines
 Another way of doing this is to use triple quotes, either ''' or """.
-
 ```
+
 These triple quotes are generally used for multi-line strings. But they can be used as a multi-line comment as well. Unless they are not docstrings, they do not generate any extra code.
 
 ```
