@@ -138,14 +138,18 @@ It extends up to the newline character. Comments are for programmers to better u
 #print out Hello
 print('Hello')
 Multi-line comments```
+
 We can have comments that extend up to multiple lines. One way is to use the hash(#) symbol at the beginning of each line. For example:
 
-```#This is a long comment
+```
+#This is a long comment
 #and it extends
 #to multiple lines
 Another way of doing this is to use triple quotes, either ''' or """.
+
 ```
 These triple quotes are generally used for multi-line strings. But they can be used as a multi-line comment as well. Unless they are not docstrings, they do not generate any extra code.
+
 ```
 """This is also a
 perfect example of
