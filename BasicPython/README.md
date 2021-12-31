@@ -17,3 +17,10 @@ All the keywords except `True`, `False` and `None` are in lowercase and they mus
 | :---         |     :---:      |          ---: |
 | False | git status     | git status    |
 | git diff     | git diff       | git diff      |
+| False | git status     | git status    |
+| git diff     | git diff       | git diff      |
+| False | git status     | git status    |
+| git diff     | git diff       | git diff      |
+| False | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
