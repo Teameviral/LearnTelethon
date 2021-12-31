@@ -124,3 +124,32 @@ print(double.__doc__)
 ### Output
 
 ```Function to double the value```
+
+## Python Comments
+Comments are very important while writing a program. They describe what is going on inside a program, so that a person looking at the source code does not have a hard time figuring it out.
+
+You might forget the key details of the program you just wrote in a month's time. So taking the time to explain these concepts in the form of comments is always fruitful.
+
+In Python, we use the hash (`#`) symbol to start writing a comment.
+
+It extends up to the newline character. Comments are for programmers to better understand a program. Python Interpreter ignores comments.
+
+```#This is a comment
+#print out Hello
+print('Hello')
+Multi-line comments```
+We can have comments that extend up to multiple lines. One way is to use the hash(#) symbol at the beginning of each line. For example:
+
+```#This is a long comment
+#and it extends
+#to multiple lines
+Another way of doing this is to use triple quotes, either ''' or """.
+```
+These triple quotes are generally used for multi-line strings. But they can be used as a multi-line comment as well. Unless they are not docstrings, they do not generate any extra code.
+```
+"""This is also a
+perfect example of
+multi-line comments"""
+```
+
+
